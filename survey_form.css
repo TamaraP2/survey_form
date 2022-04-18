@@ -189,6 +189,6 @@ body{
   @media (max-width: 1200px) {
       #form {
           width: 80%;
-          background-color: red;
+          /*background-color: red;*/
       }
     }
