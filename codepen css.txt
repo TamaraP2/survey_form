@@ -1,0 +1,114 @@
+body{
+  /*background-color:blue;*/
+  background-image: 
+    linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+  
+  background-size: cover;
+  
+}
+
+h1 {
+  color: #F3F3F3;
+  font-size: 32px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#thank_you {
+  color: #F3F3F3;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#form {
+  width:60%;
+  background-color: #1B1B32CC;
+  margin: auto;
+  border-radius: 5px;
+}  
+
+.all {
+  /*background-color: red;*/
+  margin: auto;
+  max-width: 80%;
+  min-width: 80%;
+}
+
+.name_label {
+  color: #F3F3F3;
+  font-size: 18px;
+  font-family: 'Arial';
+  display: block;
+  padding: 40px 0px 10px 0px;
+}
+
+.boxes {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px 10px;
+  display: block;
+  margin: auto;
+  font-size: 18px;
+}
+
+.mini_text {
+  color: #F3F3F3;
+  font-size: 15px;
+  font-family: 'Arial'; 
+}
+
+.dropdown {
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 7px;
+  padding: 10px;
+  display: block;
+  margin: auto;
+  font-size: 18px;
+}
+
+.checkbox {
+  color: #F3F3F3;
+  font-size: 18px;
+  font-family: 'Arial';  
+  line-height: 25px;
+  margin-left: 10px;
+}
+
+[type="checkbox"] {
+  /*opacity: 0;*/
+  margin-left: 4%;
+}
+
+[type="radio"] {
+  /*opacity: 0;*/
+  margin-left: 4%;
+}
+
+#text {
+  box-sizing: border-box;
+  width: 100%;
+  /*margin-left: 4%; */
+  color: #F3F3F3;
+  position: relative;
+  font-size: 16px;
+  font-family: 'Arial';  
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+   /*line-height: 25px; */
+}
+
+button {
+  width: 100%; 
+  background-color: #37AF65;
+  color: #F3F3F3;
+  font-size: 16px;
+  font-family: 'Arial'; 
+  border: 1px solid #1B1B32CC;
+  border-radius: 3px;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+}
