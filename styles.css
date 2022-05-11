@@ -41,8 +41,8 @@ body {
     border-radius: 5px;
     margin: auto;
     min-width: 300px;
-    max-width: 1000px;
-    width:50%;
+    max-width: 800px;
+    width:70%;
   }   
   
   #text {
@@ -58,9 +58,8 @@ body {
   }
 
   .all { 
-    margin: auto;
-    max-width: 86%;
-    min-width: 86%;
+    margin: auto; 
+    width: 86%;
   }
   
   .name_label {
