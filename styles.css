@@ -1,0 +1,170 @@
+body{  
+    --tamanhoFonte: clamp(1.5rem, 1.5vw, 3rem); 
+    background-image: 
+      linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+  }
+  
+  h1 {
+    color: #F3F3F3;
+    font-size: calc(10px + 1.8rem);   
+    font-size: calc(30px + 1vw);  
+    font-size: clamp(2rem, 2.5vw, 3rem); 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 7vh;
+  } 
+  
+  button {
+    width: 100%; 
+    background-color: #37AF65;
+    color: #F3F3F3;
+    font-size: calc(10px + 1.8rem); 
+    font-size: 1.6rem;   
+    font-size: calc(10px + 1.5vw); 
+    font-size: clamp(2.5rem, 1.5vw, 5rem); 
+    font-size: var(--tamanhoFonte);  
+    font-family: 'Poppins', sans-serif; 
+    border: 1px solid #1B1B32CC;
+    border-radius: 3px;
+    padding: 10px 0px;
+    margin-bottom: 40px;
+  }
+
+  button:hover{
+    cursor: pointer;
+  }
+
+  #thank_you {
+    color: #F3F3F3;
+    font-size: calc(10px + 1rem);  
+    font-size: calc(14px + 0.8vw);
+    font-size: clamp(1.2rem, 1.5vw, 3rem); 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+  }
+  
+  #form {
+    width: 45%;
+    background-color: #1B1B32CC;
+    margin: auto;
+    border-radius: 5px;
+  }   
+  
+  #suggestions {
+    box-sizing: border-box;
+    width: 100%; 
+    color: #F3F3F3;
+    position: relative;
+    font-size: 1rem; 
+    font-size: clamp(1.8rem, 1.1vw, 5rem); 
+    font-size: clamp(1rem, 1.2vw, 1.5rem);               
+    font-family: 'Poppins', sans-serif;  
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 60px; 
+    margin-bottom: 8%;
+    padding: 2% 0 15% 1%; 
+  }
+
+  .all {  
+    margin: auto; 
+    width: 86%;
+  }
+  
+  .label {
+    color: #F3F3F3;
+    /*font-size: calc(10px + 1rem);  
+    font-size: calc(14px + 1.3vw);   
+    font-size: clamp(1rem, 1.7vw, 5rem);*/
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    padding: 40px 0px 10px 0px;
+    font-size: var(--tamanhoFonte);  
+  }
+  
+  .boxes {
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px 10px;
+    display: block;
+    margin: auto;
+    font-size: calc(10px + 1rem);  
+    font-size: calc(14px + 0.4vw); 
+    font-size: clamp(2.5rem, 1.5vw, 5rem); 
+    font-size: var(--tamanhoFonte);  
+    font-size: clamp(1rem, 2vw, 1.3rem);  
+  }
+  
+  .mini_text {
+    color: #F3F3F3;
+    font-size: calc(10px + 0.8rem);  
+    font-size: calc(14px + 0.6vw); 
+    font-size: 1.2vw; 
+    font-size: clamp(1.8rem, 1.1vw, 35rem); 
+    font-size: clamp(1rem, 1vw, 1.5rem);
+    font-family: 'Poppins', sans-serif; 
+  }
+
+  #checkAll {
+    display: block;
+  }
+  
+  .dropdown {
+    color: #495057;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    font-size: calc(14px + 0.4vw); 
+    font-size: clamp(2.5rem, 1.1vw, 35rem); 
+    font-size: var(--tamanhoFonte);  
+    font-size: clamp(1rem, 2vw, 1.3rem);  
+    /*font-size: calc(10px + 1rem);  
+    font-size: calc(14px + 1.3vw); */
+  }
+  
+  .checkbox {
+    color: #F3F3F3;
+    /*font-size: calc(10px + 1rem); 
+    font-size: calc(14px + 1.3vw);  */
+    font-family: 'Poppins', sans-serif; 
+    line-height: 25px;
+    margin-left: 5px;
+    font-size: var(--tamanhoFonte);  
+    font-size: clamp(1.2rem, 2vw, 1.3rem);  
+  }
+  
+  [type="checkbox"] { 
+    width: 15px; 
+    height: 15px; 
+  }
+   
+
+  [type="radio"] {
+    width: 15px;
+    height: 15px; 
+  }
+  
+  
+
+  @media (max-width: 1200px) {
+      #form {
+          width: 80%; 
+      }
+    }
+
+    
+  @media (max-width: 1200px) {
+    #form {
+        width: 80%; 
+    }
+  }
