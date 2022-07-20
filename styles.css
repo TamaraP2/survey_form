@@ -10,7 +10,7 @@ body{
   
   h1 {
     color: #F3F3F3;
-    font-size: calc(2px + 1.8rem);   
+    font-size: calc(10px + 1.8rem);   
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding-top: 10vh;
@@ -34,7 +34,7 @@ body{
 
   #thank_you {
     color: #F3F3F3;
-    font-size: calc(2px + 1rem);  
+    font-size: calc(10px + 1rem);  
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-style: italic;
@@ -68,7 +68,7 @@ body{
   
   .name_label {
     color: #F3F3F3;
-    font-size: calc(2px + 1rem);  
+    font-size: calc(10px + 1rem);  
     font-family: 'Poppins', sans-serif;
     display: block;
     padding: 40px 0px 10px 0px;
@@ -81,12 +81,12 @@ body{
     padding: 10px 10px;
     display: block;
     margin: auto;
-    font-size: calc(2px + 1rem);  
+    font-size: calc(10px + 1rem);  
   }
   
   .mini_text {
     color: #F3F3F3;
-    font-size: calc(2px + 0.8rem);  
+    font-size: calc(10px + 0.8rem);  
     font-family: 'Poppins', sans-serif; 
   }
   
@@ -98,12 +98,12 @@ body{
     padding: 10px;
     display: block;
     margin: auto;
-    font-size: calc(2px + 1rem);  
+    font-size: calc(10px + 1rem);  
   }
   
   .checkbox {
     color: #F3F3F3;
-    font-size: calc(2px + 1rem);  
+    font-size: calc(10px + 1rem);  
     font-family: 'Poppins', sans-serif; 
     line-height: 25px;
     margin-left: 5px;
