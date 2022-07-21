@@ -1,0 +1,157 @@
+body{   
+  --fonte: 2.5vh;
+  background-image: 
+    linear-gradient( 115deg, rgba(58, 58, 158, 0.6), rgba(136, 136, 206, 0.4) ), url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");    
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #F3F3F3;  
+  font-size: 5vh;       
+  padding-top: 5vh;
+  text-align: center;
+} 
+
+button {
+  background-color: #37AF65;
+  border: 1px solid #1B1B32CC;
+  border-radius: 3px;
+  color: #F3F3F3;  
+  font-size: var(--fonte);  
+  margin-bottom: 10%; 
+  padding: 1.5% 0;
+  width: 100%; 
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#thank_you {
+  color: #F3F3F3; 
+  font-size: 3vh;  
+  font-style: italic;
+  font-weight: 200;
+  margin: 0 auto 2%;
+  text-align: center;
+  width: 50%;
+}
+
+#form {
+  background-color: #1B1B32CC;
+  border-radius: 5px; 
+  margin: 0 auto 5%;
+  width: 40%;
+}   
+
+#suggestions {
+  box-sizing: border-box;
+  color: #F3F3F3;
+  font-size: var(--fonte);    
+  margin-bottom: 8%;
+  padding: 2% 0 15% 1%; 
+  position: relative; 
+  width: 100%; 
+}
+
+.all {  
+  margin: auto; 
+  width: 86%;
+}
+
+.label {
+  color: #F3F3F3; 
+  display: block; 
+  font-size: var(--fonte);  
+  padding: 7% 0 1% 0; 
+}
+
+.boxes {
+  box-sizing: border-box;
+  border-radius: 8px; 
+  display: block;
+  font-size: var(--fonte); 
+  margin: auto; 
+  padding: 2% 2%;
+  width: 100%;
+}
+
+.mini_text {
+  color: #F3F3F3; 
+  font-size: 1.9vh;  
+}
+
+#checkAll {
+  display: block;
+}
+
+.dropdown {
+  color: #495057;
+  border-radius: 7px; 
+  box-sizing: border-box;
+  display: block;
+  font-size: var(--fonte); 
+  margin: auto; 
+  padding: 2% 2%;  
+  width: 100%; 
+}
+
+.checkbox {
+  color: #F3F3F3; 
+  font-size: var(--fonte);  
+  line-height: 1.6; 
+  margin-left: 2%;   
+}
+
+.checkbox:hover { 
+  cursor: pointer;    
+}
+
+[type="checkbox"] { 
+  width: 15px; 
+  height: 15px;    
+}
+  
+[type="checkbox"]:hover { 
+  cursor: pointer;    
+}
+
+[type="radio"] {
+  width: 15px;
+  height: 15px;    
+} 
+
+[type="radio"]:hover { 
+  cursor: pointer;    
+}
+
+
+  
+@media (max-width: 1000px) {
+  #form {
+    width: 80%; 
+  }
+
+  #thank_you {
+    font-size: 2.2vh; 
+    margin-bottom: 3%;
+    width: 100%;
+  }
+
+    
+  [type="radio"] {  
+    width: 1.5vh;
+    height: 1.5vh; 
+  } 
+
+  
+  [type="checkbox"] {   
+    width: 1.5vh;
+    height: 1.5vh; 
+  }
+}
+  
