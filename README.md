@@ -5,5 +5,5 @@
 <p align="center">https://tamarap2.github.io/Survey-Form/</p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/87210574/180098506-135333c4-68c6-4929-a1b2-bf1ec1e0af0c.png"
+  <img src="https://user-images.githubusercontent.com/87210574/180115606-deaad50f-a63a-406f-bd2c-66553ce4c811.png"  
 </p>
